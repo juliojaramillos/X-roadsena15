@@ -1,0 +1,14 @@
+app:
+  host: "localhost"
+  port: 8080
+  debug: true
+
+database:
+  dialect: "postgres"
+  database: "puntored"
+  debug: true
+  username: "postgres"
+  password: "password"
+  host: "localhost"
+  port: 5432
+  sslmode: false

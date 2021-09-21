@@ -1,0 +1,353 @@
+2020-09-02 09:33:44,000 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-09-02 09:33:44,032 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/user.properties
+2020-09-02 09:33:44,033 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/system.properties
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: Version 5.3
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: java.version=1.8.0_231
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-09-02 09:33:44,035 INFO o.a.j.JMeter: os.arch=x86_64
+2020-09-02 09:33:44,036 INFO o.a.j.JMeter: os.version=10.15.6
+2020-09-02 09:33:44,036 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-09-02 09:33:44,036 INFO o.a.j.JMeter: java.awt.headless=null
+2020-09-02 09:33:44,036 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-09-02 09:33:44,036 INFO o.a.j.JMeter: Available Processors =8
+2020-09-02 09:33:44,045 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-09-02 09:33:44,045 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-09-02 09:33:44,045 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.3/libexec
+2020-09-02 09:33:44,045 INFO o.a.j.JMeter: user.dir  =/Users/mac/Documents/Trabajo/puntored2019/portal-api-4.0
+2020-09-02 09:33:44,045 INFO o.a.j.JMeter: PWD       =/Users/mac/Documents/Trabajo/puntored2019/portal-api-4.0
+2020-09-02 09:33:44,047 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: MacBook-Pro-de-mac.local FullName: localhost
+2020-09-02 09:33:44,475 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-09-02 09:33:46,522 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-09-02 09:33:47,737 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-2f7eaaccfa6ae3a7f6c93f9a81eabf8b-gui
+2020-09-02 09:33:51,317 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.3, jmeter-core=5.3, jmeter-ftp=5.3, jmeter-http=5.3, jmeter-jdbc=5.3, jmeter-jms=5.3, jmeter-junit=5.3, jmeter-java=5.3, jmeter-ldap=5.3, jmeter-mail=5.3, jmeter-mongodb=5.3, jmeter-native=5.3, jmeter-tcp=5.3, jmeter-components=5.3]
+2020-09-02 09:33:51,319 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2020-09-02 09:34:07,341 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-09-02 09:34:07,343 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 09:40:39,743 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-09-02 09:40:39,746 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-09-02 09:41:51,383 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-02 09:41:51,384 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-02 09:41:51,385 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-02 09:41:51,392 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-02 09:41:51,816 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-02 09:41:51,817 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-09-02 09:41:51,817 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-02 09:41:51,817 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-09-02 09:41:51,821 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-02 09:41:51,821 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-02 09:41:51,823 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-02 09:41:51,828 INFO o.a.j.p.t.s.TCPClientImpl: Using platform default charset:UTF-8
+2020-09-02 09:41:51,830 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-09-02 09:41:51,830 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-09-02 09:41:51,830 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-09-02 09:41:51,831 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-09-02 09:41:51,833 WARN o.a.j.p.t.s.TCPSampler: Could not create socket for tcp://:0
+java.net.NoRouteToHostException: Can't assign requested address (Address not available)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_231]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_231]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_231]
+	at org.apache.jmeter.protocol.tcp.sampler.TCPSampler.getSocket(TCPSampler.java:167) [ApacheJMeter_tcp.jar:5.3]
+	at org.apache.jmeter.protocol.tcp.sampler.TCPSampler.sample(TCPSampler.java:380) [ApacheJMeter_tcp.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2020-09-02 09:41:51,843 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-02 09:41:51,843 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-02 09:41:51,844 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-02 09:41:51,847 INFO o.a.j.s.FileServer: Default base='/Users/mac/Documents/Trabajo/puntored2019/portal-api-4.0'
+2020-09-02 09:41:51,847 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-02 09:42:09,855 WARN o.a.j.p.h.p.ProxyControl: Could not open/read key store /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks (No such file or directory), a new one will be created, ensure you install it in browser
+java.io.FileNotFoundException: /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_231]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_231]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_231]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.getKeyStore(ProxyControl.java:1612) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1492) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1445) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:503) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:605) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:445) [ApacheJMeter_http.jar:5.3]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [?:1.8.0_231]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [?:1.8.0_231]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [?:1.8.0_231]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [?:1.8.0_231]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [?:1.8.0_231]
+	at java.awt.Component.processMouseEvent(Component.java:6539) [?:1.8.0_231]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [?:1.8.0_231]
+	at java.awt.Component.processEvent(Component.java:6304) [?:1.8.0_231]
+	at java.awt.Container.processEvent(Container.java:2239) [?:1.8.0_231]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [?:1.8.0_231]
+	at java.awt.Container.dispatchEventImpl(Container.java:2297) [?:1.8.0_231]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_231]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904) [?:1.8.0_231]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535) [?:1.8.0_231]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476) [?:1.8.0_231]
+	at java.awt.Container.dispatchEventImpl(Container.java:2283) [?:1.8.0_231]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_231]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_231]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760) [?:1.8.0_231]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_231]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_231]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_231]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_231]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_231]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84) [?:1.8.0_231]
+	at java.awt.EventQueue$4.run(EventQueue.java:733) [?:1.8.0_231]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_231]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_231]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_231]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_231]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_231]
+2020-09-02 09:42:09,882 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks, ensure you install certificate in your Browser for recording
+2020-09-02 09:42:11,783 WARN o.a.j.e.KeyToolUtils: Failed creating /Users/mac/Documents/Trabajo/puntored2019/portal-api-4.0/ApacheJMeterTemporaryRootCA.crt, check 'keytool' utility in path is available and points to a JDK >= 7
+2020-09-02 09:42:11,783 INFO o.a.j.p.h.p.ProxyControl: Created keystore in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 09:42:11,787 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2020-09-02 09:42:11,789 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2020-09-02 09:42:15,428 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2020-09-02 09:42:15,430 INFO o.a.j.p.h.p.ProxyControl: [53590]  Creating entry edge-chat.facebook.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 09:42:16,514 INFO o.a.j.p.h.p.Proxy: [53590]  KeyStore for SSL loaded OK and put host 'edge-chat.facebook.com' in map with key (edge-chat.facebook.com)
+2020-09-02 09:42:16,673 WARN o.a.j.p.h.p.Proxy: [53590]  Problem with SSL certificate for url  for 'edge-chat.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 09:42:25,703 WARN o.a.j.p.h.p.Proxy: [53591]  Problem with SSL certificate for url  for 'edge-chat.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 09:42:42,811 WARN o.a.j.p.h.p.Proxy: [53593]  Problem with SSL certificate for url  for 'edge-chat.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 09:42:47,984 WARN o.a.j.p.h.p.Proxy: [53594]  Problem with SSL certificate for url  for 'edge-chat.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 09:42:49,497 WARN o.a.j.p.h.p.Proxy: [53596]  Problem with SSL certificate for url  for 'edge-chat.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 09:42:51,496 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2020-09-02 09:59:53,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-02 09:59:53,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-02 09:59:53,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-02 09:59:53,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-02 09:59:53,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-09-02 09:59:53,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-09-02 10:34:32,988 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2020-09-02 10:34:32,990 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2020-09-02 10:34:32,990 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2020-09-02 10:34:32,992 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2020-09-02 10:34:37,025 INFO o.a.j.p.h.p.ProxyControl: [54735]  Creating entry static.xx.fbcdn.net in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:37,246 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = MacBook-Pro-de-mac.local
+2020-09-02 10:34:37,262 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-09-02 10:34:40,235 INFO o.a.j.p.h.p.ProxyControl: Add sample https/ocsp04-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIIBLbC3Cnv470%3D-1 into controller https
+2020-09-02 10:34:41,515 INFO o.a.j.p.h.p.ProxyControl: [54739]  Creating entry play.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:41,517 INFO o.a.j.p.h.p.Proxy: [54735]  KeyStore for SSL loaded OK and put host 'static.xx.fbcdn.net' in map with key (static.xx.fbcdn.net)
+2020-09-02 10:34:41,558 WARN o.a.j.p.h.p.Proxy: [54735]  Problem with SSL certificate for url  for 'static.xx.fbcdn.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:43,086 INFO o.a.j.p.h.p.ProxyControl: [54738]  Creating entry calendar.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:43,087 INFO o.a.j.p.h.p.Proxy: [54739]  KeyStore for SSL loaded OK and put host 'play.google.com' in map with key (play.google.com)
+2020-09-02 10:34:43,115 WARN o.a.j.p.h.p.Proxy: [54739]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:44,362 INFO o.a.j.p.h.p.ProxyControl: [54734]  Creating entry www.facebook.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:44,365 INFO o.a.j.p.h.p.Proxy: [54738]  KeyStore for SSL loaded OK and put host 'calendar.google.com' in map with key (calendar.google.com)
+2020-09-02 10:34:44,388 WARN o.a.j.p.h.p.Proxy: [54738]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:45,521 INFO o.a.j.p.h.p.ProxyControl: [54741]  Creating entry beacons2.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:45,524 INFO o.a.j.p.h.p.Proxy: [54734]  KeyStore for SSL loaded OK and put host 'www.facebook.com' in map with key (www.facebook.com)
+2020-09-02 10:34:45,547 WARN o.a.j.p.h.p.Proxy: [54734]  Problem with SSL certificate for url  for 'www.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:46,740 INFO o.a.j.p.h.p.ProxyControl: [54740]  Creating entry beacons.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:46,742 INFO o.a.j.p.h.p.Proxy: [54741]  KeyStore for SSL loaded OK and put host 'beacons2.gvt2.com' in map with key (beacons2.gvt2.com)
+2020-09-02 10:34:46,766 WARN o.a.j.p.h.p.Proxy: [54741]  Problem with SSL certificate for url  for 'beacons2.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:47,865 INFO o.a.j.p.h.p.ProxyControl: [54743]  Creating entry alive.github.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:34:47,869 INFO o.a.j.p.h.p.Proxy: [54740]  KeyStore for SSL loaded OK and put host 'beacons.gvt2.com' in map with key (beacons.gvt2.com)
+2020-09-02 10:34:47,890 WARN o.a.j.p.h.p.Proxy: [54740]  Problem with SSL certificate for url  for 'beacons.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:47,913 WARN o.a.j.p.h.p.Proxy: [54744]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:49,205 INFO o.a.j.p.h.p.Proxy: [54743]  KeyStore for SSL loaded OK and put host 'alive.github.com' in map with key (alive.github.com)
+2020-09-02 10:34:49,222 WARN o.a.j.p.h.p.Proxy: [54743]  Problem with SSL certificate for url  for 'alive.github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:50,749 WARN o.a.j.p.h.p.Proxy: [54745]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:34:51,205 INFO o.a.j.p.h.p.ProxyControl: Add sample https/generate_204-2 into controller https
+2020-09-02 10:35:01,360 WARN o.a.j.p.h.p.Proxy: [54747]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:02,656 WARN o.a.j.p.h.p.Proxy: [54748]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:04,809 WARN o.a.j.p.h.p.Proxy: [54749]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:09,526 WARN o.a.j.p.h.p.Proxy: [54750]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:11,221 WARN o.a.j.p.h.p.Proxy: [54751]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:21,777 WARN o.a.j.p.h.p.Proxy: [54752]  Problem with SSL certificate for url  for 'alive.github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:21,781 INFO o.a.j.p.h.p.ProxyControl: [54753]  Creating entry github.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:21,966 WARN o.a.j.p.h.p.Proxy: [54754]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:23,286 INFO o.a.j.p.h.p.Proxy: [54753]  KeyStore for SSL loaded OK and put host 'github.com' in map with key (github.com)
+2020-09-02 10:35:23,315 WARN o.a.j.p.h.p.Proxy: [54753]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:24,339 WARN o.a.j.p.h.p.Proxy: [54755]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:24,867 WARN o.a.j.p.h.p.Proxy: [54756]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:26,352 WARN o.a.j.p.h.p.Proxy: [54757]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:30,391 INFO o.a.j.p.h.p.ProxyControl: [54758]  Creating entry configuration.ls.apple.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:30,562 WARN o.a.j.p.h.p.Proxy: [54759]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:31,544 INFO o.a.j.p.h.p.Proxy: [54758]  KeyStore for SSL loaded OK and put host 'configuration.ls.apple.com' in map with key (configuration.ls.apple.com)
+2020-09-02 10:35:31,632 WARN o.a.j.p.h.p.Proxy: [54758]  Problem with SSL certificate for url  for 'configuration.ls.apple.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
+2020-09-02 10:35:32,305 WARN o.a.j.p.h.p.Proxy: [54760]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:39,185 WARN o.a.j.p.h.p.Proxy: [54761]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:41,590 INFO o.a.j.p.h.p.ProxyControl: [54762]  Creating entry clients4.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:41,933 WARN o.a.j.p.h.p.Proxy: [54763]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:43,337 INFO o.a.j.p.h.p.Proxy: [54762]  KeyStore for SSL loaded OK and put host 'clients4.google.com' in map with key (clients4.google.com)
+2020-09-02 10:35:43,370 WARN o.a.j.p.h.p.Proxy: [54762]  Problem with SSL certificate for url  for 'clients4.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:43,719 INFO o.a.j.p.h.p.ProxyControl: [54764]  Creating entry dsbm.easysol.net in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:44,961 INFO o.a.j.p.h.p.ProxyControl: [54766]  Creating entry beacons4.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:44,964 INFO o.a.j.p.h.p.Proxy: [54764]  KeyStore for SSL loaded OK and put host 'dsbm.easysol.net' in map with key (dsbm.easysol.net)
+2020-09-02 10:35:44,981 WARN o.a.j.p.h.p.Proxy: [54764]  Problem with SSL certificate for url  for 'dsbm.easysol.net'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
+2020-09-02 10:35:44,995 WARN o.a.j.p.h.p.Proxy: [54767]  Problem with SSL certificate for url  for 'dsbm.easysol.net'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
+2020-09-02 10:35:45,891 WARN o.a.j.p.h.p.Proxy: [54768]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:46,263 INFO o.a.j.p.h.p.ProxyControl: [54765]  Creating entry beacons3.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:46,267 INFO o.a.j.p.h.p.Proxy: [54766]  KeyStore for SSL loaded OK and put host 'beacons4.gvt2.com' in map with key (beacons4.gvt2.com)
+2020-09-02 10:35:46,287 WARN o.a.j.p.h.p.Proxy: [54766]  Problem with SSL certificate for url  for 'beacons4.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:46,803 WARN o.a.j.p.h.p.Proxy: [54769]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:47,849 INFO o.a.j.p.h.p.Proxy: [54765]  KeyStore for SSL loaded OK and put host 'beacons3.gvt2.com' in map with key (beacons3.gvt2.com)
+2020-09-02 10:35:47,868 WARN o.a.j.p.h.p.Proxy: [54765]  Problem with SSL certificate for url  for 'beacons3.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:51,354 WARN o.a.j.p.h.p.Proxy: [54770]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:51,847 WARN o.a.j.p.h.p.Proxy: [54771]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:56,003 WARN o.a.j.p.h.p.Proxy: [54772]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:56,851 INFO o.a.j.p.h.p.ProxyControl: [54773]  Creating entry clients6.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:57,958 INFO o.a.j.p.h.p.Proxy: [54773]  KeyStore for SSL loaded OK and put host 'clients6.google.com' in map with key (clients6.google.com)
+2020-09-02 10:35:57,985 WARN o.a.j.p.h.p.Proxy: [54773]  Problem with SSL certificate for url  for 'clients6.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:35:58,772 INFO o.a.j.p.h.p.ProxyControl: [54774]  Creating entry ssl.gstatic.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:35:59,940 INFO o.a.j.p.h.p.Proxy: [54774]  KeyStore for SSL loaded OK and put host 'ssl.gstatic.com' in map with key (ssl.gstatic.com)
+2020-09-02 10:35:59,961 WARN o.a.j.p.h.p.Proxy: [54774]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:01,186 WARN o.a.j.p.h.p.Proxy: [54775]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:01,766 WARN o.a.j.p.h.p.Proxy: [54776]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:02,870 WARN o.a.j.p.h.p.Proxy: [54777]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:10,983 WARN o.a.j.p.h.p.Proxy: [54778]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:11,331 WARN o.a.j.p.h.p.Proxy: [54779]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:11,883 INFO o.a.j.p.h.p.ProxyControl: [54780]  Creating entry google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:36:13,035 INFO o.a.j.p.h.p.ProxyControl: [54782]  Creating entry 15.client-channel.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:36:13,037 INFO o.a.j.p.h.p.Proxy: [54780]  KeyStore for SSL loaded OK and put host 'google.com' in map with key (google.com)
+2020-09-02 10:36:13,068 WARN o.a.j.p.h.p.Proxy: [54780]  Problem with SSL certificate for url  for 'google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:13,529 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2020-09-02 10:36:26,950 INFO o.a.j.p.h.p.ProxyControl: [54781]  Creating entry beacons.gcp.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:36:26,954 INFO o.a.j.p.h.p.Proxy: [54782]  KeyStore for SSL loaded OK and put host '15.client-channel.google.com' in map with key (15.client-channel.google.com)
+2020-09-02 10:36:26,988 WARN o.a.j.p.h.p.Proxy: [54782]  Problem with SSL certificate for url  for '15.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:36:28,425 INFO o.a.j.p.h.p.Proxy: [54781]  KeyStore for SSL loaded OK and put host 'beacons.gcp.gvt2.com' in map with key (beacons.gcp.gvt2.com)
+2020-09-02 10:36:28,444 WARN o.a.j.p.h.p.Proxy: [54781]  Problem with SSL certificate for url  for 'beacons.gcp.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:16,914 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2020-09-02 10:37:16,920 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2020-09-02 10:37:16,920 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2020-09-02 10:37:16,921 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2020-09-02 10:37:18,526 WARN o.a.j.p.h.p.Proxy: [54913]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:22,015 WARN o.a.j.p.h.p.Proxy: [54914]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:22,604 WARN o.a.j.p.h.p.Proxy: [54915]  Problem with SSL certificate for url  for 'beacons.gcp.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:23,697 INFO o.a.j.p.h.p.ProxyControl: [54916]  Creating entry 24.client-channel.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:37:23,706 WARN o.a.j.p.h.p.Proxy: [54917]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:26,396 WARN o.a.j.p.h.p.Proxy: [54919]  Problem with SSL certificate for url  for 'static.xx.fbcdn.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:26,400 WARN o.a.j.p.h.p.Proxy: [54918]  Problem with SSL certificate for url  for 'www.facebook.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:27,963 WARN o.a.j.p.h.p.Proxy: [54921]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:28,814 WARN o.a.j.p.h.p.Proxy: [54923]  Problem with SSL certificate for url  for 'beacons.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:28,859 INFO o.a.j.p.h.p.ProxyControl: Add sample https/generate_204-3 into controller https
+2020-09-02 10:37:29,472 WARN o.a.j.p.h.p.Proxy: [54924]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:32,116 WARN o.a.j.p.h.p.Proxy: [54925]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:37,381 INFO o.a.j.p.h.p.ProxyControl: [54930]  Creating entry fonts.gstatic.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:37:37,385 INFO o.a.j.p.h.p.Proxy: [54916]  KeyStore for SSL loaded OK and put host '24.client-channel.google.com' in map with key (24.client-channel.google.com)
+2020-09-02 10:37:37,415 WARN o.a.j.p.h.p.Proxy: [54916]  Problem with SSL certificate for url  for '24.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:37,568 WARN o.a.j.p.h.p.Proxy: [54931]  Problem with SSL certificate for url  for '24.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:38,633 WARN o.a.j.p.h.p.Proxy: [54932]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:38,640 INFO o.a.j.p.h.p.ProxyControl: [54929]  Creating entry maxcdn.bootstrapcdn.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:37:38,643 INFO o.a.j.p.h.p.Proxy: [54930]  KeyStore for SSL loaded OK and put host 'fonts.gstatic.com' in map with key (fonts.gstatic.com)
+2020-09-02 10:37:38,660 WARN o.a.j.p.h.p.Proxy: [54930]  Problem with SSL certificate for url  for 'fonts.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:39,821 INFO o.a.j.p.h.p.ProxyControl: [54928]  Creating entry fonts.googleapis.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:37:39,823 INFO o.a.j.p.h.p.Proxy: [54929]  KeyStore for SSL loaded OK and put host 'maxcdn.bootstrapcdn.com' in map with key (maxcdn.bootstrapcdn.com)
+2020-09-02 10:37:39,838 WARN o.a.j.p.h.p.Proxy: [54929]  Problem with SSL certificate for url  for 'maxcdn.bootstrapcdn.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:40,166 WARN o.a.j.p.h.p.Proxy: [54933]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:40,180 WARN o.a.j.p.h.p.Proxy: [54934]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:40,985 INFO o.a.j.p.h.p.ProxyControl: [54927]  Creating entry jmeter.apache.org in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:37:40,992 INFO o.a.j.p.h.p.Proxy: [54928]  KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com)
+2020-09-02 10:37:41,007 WARN o.a.j.p.h.p.Proxy: [54928]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:41,570 WARN o.a.j.p.h.p.Proxy: [54935]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:42,334 INFO o.a.j.p.h.p.Proxy: [54927]  KeyStore for SSL loaded OK and put host 'jmeter.apache.org' in map with key (jmeter.apache.org)
+2020-09-02 10:37:42,385 WARN o.a.j.p.h.p.Proxy: [54927]  Problem with SSL certificate for url  for 'jmeter.apache.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:42,385 WARN o.a.j.p.h.p.Proxy: [54926]  Problem with SSL certificate for url  for 'jmeter.apache.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:37:42,567 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2020-09-02 10:38:18,194 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2020-09-02 10:38:18,195 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2020-09-02 10:38:18,196 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2020-09-02 10:38:18,197 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2020-09-02 10:38:19,135 WARN o.a.j.p.h.p.Proxy: [55044]  Problem with SSL certificate for url  for 'beacons2.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:19,518 INFO o.a.j.p.h.p.ProxyControl: [55045]  Creating entry 0.client-channel.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:20,550 WARN o.a.j.p.h.p.Proxy: [55046]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:20,576 WARN o.a.j.p.h.p.Proxy: [55047]  Problem with SSL certificate for url  for 'beacons4.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:22,015 WARN o.a.j.p.h.p.Proxy: [55049]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:25,534 WARN o.a.j.p.h.p.Proxy: [55056]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:28,850 WARN o.a.j.p.h.p.Proxy: [55062]  Problem with SSL certificate for url  for '24.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:28,860 WARN o.a.j.p.h.p.Proxy: [55063]  Problem with SSL certificate for url  for '24.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:29,058 INFO o.a.j.p.h.p.ProxyControl: Add sample https/robots.txt-5 into controller https
+2020-09-02 10:38:29,073 INFO o.a.j.p.h.p.ProxyControl: Add sample https/-4 into controller https
+2020-09-02 10:38:29,493 WARN o.a.j.p.h.p.Proxy: [55067]  Problem with SSL certificate for url  for 'github.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:29,708 WARN o.a.j.p.h.p.Proxy: [55068]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:30,820 WARN o.a.j.p.h.p.Proxy: [55069]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:31,941 WARN o.a.j.p.h.p.Proxy: [55070]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:33,441 INFO o.a.j.p.h.p.ProxyControl: [55066]  Creating entry safebrowsing.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:33,447 INFO o.a.j.p.h.p.Proxy: [55045]  KeyStore for SSL loaded OK and put host '0.client-channel.google.com' in map with key (0.client-channel.google.com)
+2020-09-02 10:38:33,479 WARN o.a.j.p.h.p.Proxy: [55045]  Problem with SSL certificate for url  for '0.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:34,635 INFO o.a.j.p.h.p.ProxyControl: [55065]  Creating entry admin.puntopay.co in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:34,658 INFO o.a.j.p.h.p.Proxy: [55066]  KeyStore for SSL loaded OK and put host 'safebrowsing.google.com' in map with key (safebrowsing.google.com)
+2020-09-02 10:38:34,676 WARN o.a.j.p.h.p.Proxy: [55066]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:35,977 INFO o.a.j.p.h.p.Proxy: [55065]  KeyStore for SSL loaded OK and put host 'admin.puntopay.co' in map with key (admin.puntopay.co)
+2020-09-02 10:38:35,978 INFO o.a.j.p.h.p.ProxyControl: [55055]  Creating entry www.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:35,986 WARN o.a.j.p.h.p.Proxy: [55059]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:35,996 WARN o.a.j.p.h.p.Proxy: [55065]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:35,996 WARN o.a.j.p.h.p.Proxy: [55064]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:36,136 WARN o.a.j.p.h.p.Proxy: [55071]  Problem with SSL certificate for url  for 'fonts.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:36,173 WARN o.a.j.p.h.p.Proxy: [55072]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:36,704 WARN o.a.j.p.h.p.Proxy: [55074]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,513 INFO o.a.j.p.h.p.Proxy: [55055]  KeyStore for SSL loaded OK and put host 'www.google.com' in map with key (www.google.com)
+2020-09-02 10:38:37,527 INFO o.a.j.p.h.p.ProxyControl: [55048]  Creating entry beacons5.gvt2.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55055]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55054]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55053]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55052]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55051]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:37,537 WARN o.a.j.p.h.p.Proxy: [55050]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:38,803 INFO o.a.j.p.h.p.ProxyControl: [55073]  Creating entry api.puntopay.co in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:38,807 INFO o.a.j.p.h.p.Proxy: [55048]  KeyStore for SSL loaded OK and put host 'beacons5.gvt2.com' in map with key (beacons5.gvt2.com)
+2020-09-02 10:38:38,824 WARN o.a.j.p.h.p.Proxy: [55048]  Problem with SSL certificate for url  for 'beacons5.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:38,831 WARN o.a.j.p.h.p.Proxy: [55075]  Problem with SSL certificate for url  for 'beacons.gcp.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:38,837 WARN o.a.j.p.h.p.Proxy: [55076]  Problem with SSL certificate for url  for 'beacons.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:38,845 WARN o.a.j.p.h.p.Proxy: [55077]  Problem with SSL certificate for url  for 'beacons3.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:40,133 INFO o.a.j.p.h.p.ProxyControl: [55078]  Creating entry beacons5.gvt3.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:40,138 INFO o.a.j.p.h.p.Proxy: [55073]  KeyStore for SSL loaded OK and put host 'api.puntopay.co' in map with key (api.puntopay.co)
+2020-09-02 10:38:40,155 WARN o.a.j.p.h.p.Proxy: [55073]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:40,163 WARN o.a.j.p.h.p.Proxy: [55079]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:40,169 WARN o.a.j.p.h.p.Proxy: [55080]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:40,216 WARN o.a.j.p.h.p.Proxy: [55081]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:40,919 WARN o.a.j.p.h.p.Proxy: [55083]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:41,460 INFO o.a.j.p.h.p.ProxyControl: [55082]  Creating entry cdn.jsdelivr.net in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:41,464 INFO o.a.j.p.h.p.Proxy: [55078]  KeyStore for SSL loaded OK and put host 'beacons5.gvt3.com' in map with key (beacons5.gvt3.com)
+2020-09-02 10:38:41,480 WARN o.a.j.p.h.p.Proxy: [55078]  Problem with SSL certificate for url  for 'beacons5.gvt3.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:42,086 WARN o.a.j.p.h.p.Proxy: [55085]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:42,195 WARN o.a.j.p.h.p.Proxy: [55086]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:42,635 INFO o.a.j.p.h.p.ProxyControl: [55084]  Creating entry clients2.google.com in /usr/local/Cellar/jmeter/5.3/libexec/bin/proxyserver.jks
+2020-09-02 10:38:42,640 INFO o.a.j.p.h.p.Proxy: [55082]  KeyStore for SSL loaded OK and put host 'cdn.jsdelivr.net' in map with key (cdn.jsdelivr.net)
+2020-09-02 10:38:42,658 WARN o.a.j.p.h.p.Proxy: [55082]  Problem with SSL certificate for url  for 'cdn.jsdelivr.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:43,219 WARN o.a.j.p.h.p.Proxy: [55087]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:43,237 WARN o.a.j.p.h.p.Proxy: [55088]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:43,727 WARN o.a.j.p.h.p.Proxy: [55089]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:43,929 INFO o.a.j.p.h.p.Proxy: [55084]  KeyStore for SSL loaded OK and put host 'clients2.google.com' in map with key (clients2.google.com)
+2020-09-02 10:38:43,944 WARN o.a.j.p.h.p.Proxy: [55084]  Problem with SSL certificate for url  for 'clients2.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:44,660 WARN o.a.j.p.h.p.Proxy: [55090]  Problem with SSL certificate for url  for 'beacons4.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:44,666 WARN o.a.j.p.h.p.Proxy: [55091]  Problem with SSL certificate for url  for 'beacons4.gvt2.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:47,154 WARN o.a.j.p.h.p.Proxy: [55092]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:47,796 WARN o.a.j.p.h.p.Proxy: [55093]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:47,965 WARN o.a.j.p.h.p.Proxy: [55094]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:50,223 WARN o.a.j.p.h.p.Proxy: [55095]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:50,406 WARN o.a.j.p.h.p.Proxy: [55096]  Problem with SSL certificate for url  for 'clients4.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,350 WARN o.a.j.p.h.p.Proxy: [55099]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,352 WARN o.a.j.p.h.p.Proxy: [55097]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,352 WARN o.a.j.p.h.p.Proxy: [55098]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,359 WARN o.a.j.p.h.p.Proxy: [55100]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,398 WARN o.a.j.p.h.p.Proxy: [55101]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,553 WARN o.a.j.p.h.p.Proxy: [55102]  Problem with SSL certificate for url  for 'ssl.gstatic.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,554 WARN o.a.j.p.h.p.Proxy: [55103]  Problem with SSL certificate for url  for 'calendar.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,574 WARN o.a.j.p.h.p.Proxy: [55104]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,581 WARN o.a.j.p.h.p.Proxy: [55105]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,590 WARN o.a.j.p.h.p.Proxy: [55106]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,634 WARN o.a.j.p.h.p.Proxy: [55107]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:51,635 WARN o.a.j.p.h.p.Proxy: [55108]  Problem with SSL certificate for url  for 'cdn.jsdelivr.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:53,548 WARN o.a.j.p.h.p.Proxy: [55109]  Problem with SSL certificate for url  for 'admin.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:53,604 WARN o.a.j.p.h.p.Proxy: [55110]  Problem with SSL certificate for url  for 'api.puntopay.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:53,983 WARN o.a.j.p.h.p.Proxy: [55111]  Problem with SSL certificate for url  for 'play.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:58,560 WARN o.a.j.p.h.p.Proxy: [55112]  Problem with SSL certificate for url  for '0.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:58,576 WARN o.a.j.p.h.p.Proxy: [55113]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:59,550 WARN o.a.j.p.h.p.Proxy: [55114]  Problem with SSL certificate for url  for '0.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:59,576 WARN o.a.j.p.h.p.Proxy: [55115]  Problem with SSL certificate for url  for '0.client-channel.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:38:59,586 WARN o.a.j.p.h.p.Proxy: [55116]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2020-09-02 10:39:00,581 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped

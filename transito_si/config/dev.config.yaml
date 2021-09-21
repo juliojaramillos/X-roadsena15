@@ -1,0 +1,14 @@
+app:
+  host: "0.0.0.0"
+  port: 8080
+  debug: true
+
+database:
+  dialect: "postgres"
+  database: "postgres"
+  debug: true
+  username: "postgres"
+  password: "admin"
+  host: "transito_db"
+  port: 5432
+  sslmode: false
