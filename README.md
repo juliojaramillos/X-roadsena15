@@ -1,2 +1,1 @@
-# X-roadsena15
-n
+Este repositorio contiene el código fuente de los sistemas de informacion y directivas de despliegue (docker-compose) para levantar todo el ambiente para el escenario avanzado de interoperabilidad del Diplomado IOP XRoad UNAL 2020 

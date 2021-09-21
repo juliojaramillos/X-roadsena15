@@ -1,0 +1,112 @@
+version: "3.5"
+ 
+services:
+  # Central Server
+  central-server:
+    container_name: xroad_sc
+    image: niis/xroad-central-server:bionic-6.24.1
+    ports:
+      - "4000:4000"
+      - "4001:80"
+      - "4002:9998"
+    volumes:
+      - type: volume
+        source: cs-ca-volume
+        target: /home/ca
+        volume:
+          nocopy: false
+      - type: volume
+        source: cs-db-volume
+        target: /var/lib/postgresql/10/main
+        volume:
+          nocopy: false
+      - type: volume
+        source: cs-nginx-volume
+        target: /usr/share/nginx/html
+        volume:
+          nocopy: false
+      - type: volume
+        source: cs-xroad-volume
+        target: /etc/xroad
+        volume:
+          nocopy: false
+      - type: volume
+        source: cs-public-volume
+        target: /var/lib/xroad
+        volume:
+          nocopy: false
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.2
+  # Security Servers
+  transito-security-server:
+    container_name: transito_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4100:4000"
+      - "4101:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.3
+  tecnologia-security-server:
+    container_name: tecnologia_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4200:4000"
+      - "4201:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.4
+  ciudadania-security-server:
+    container_name: ciudadania_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4300:4000"
+      - "4301:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.8
+  transporte-security-server:
+    container_name: transporte_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4400:4000"
+      - "4401:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.9
+  ensenanza-security-server:
+    container_name: ensenanza_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4500:4000"
+      - "4501:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.10
+  movilidad-security-server:
+    container_name: movilidad_ss
+    image: niis/xroad-security-server:bionic-6.24.1
+    ports:
+      - "4600:4000"
+      - "4601:80"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.11
+
+volumes:
+  cs-ca-volume:
+  cs-db-volume:
+  cs-nginx-volume:
+  cs-xroad-volume:
+  cs-public-volume:
+
+networks:
+  x-road-network:
+    name: x-road-network
+    driver: bridge
+    internal: false
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.25.0.0/24

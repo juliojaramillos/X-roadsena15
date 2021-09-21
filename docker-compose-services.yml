@@ -1,0 +1,107 @@
+version: "3.5"
+ 
+services:
+  # Sistemas de información
+  # TRANSITO
+  transito_db:
+    container_name: transito_db
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-admin}
+      PGDATA: /data/postgres
+    ports:
+      - "5432:5432"
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.6
+    restart: unless-stopped
+  transito_si:
+    build: 
+      context: .
+      dockerfile: transito_si/Dockerfile
+    container_name: transito_si
+    ports:
+      - "1002:8080"
+    depends_on:
+      - "transito_db" 
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.5
+    restart: unless-stopped
+  # CIUDADANIA  
+  ciudadania_si:
+    container_name: ciudadania_si
+    env_file: 
+      - ./ciudadania_si/.env
+    build: 
+      context: .
+      dockerfile: ciudadania_si/Dockerfile
+    restart: always
+    ports:
+    - 1003:8080
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.12
+    depends_on:
+    - ciudadania_db
+  ciudadania_db:
+    container_name: ciudadania_db
+    env_file: 
+      - ./ciudadania_si/.env
+    image: postgres
+    restart: always
+    expose:
+      - "5433"
+    command: -p 5433
+    ports:
+    - 5433:5433
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.13
+  # TRANSPORTE
+  transporte_si:
+    container_name: transporte_si
+    build: 
+      context: .
+      dockerfile: transporte_si/Dockerfile
+    ports:
+      - "1001:1001"
+    restart: unless-stopped
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.14
+  # ENSENANZA
+  ensenanza_si:
+    container_name: ensenanza_si
+    build: 
+      context: .
+      dockerfile: ensenanza_si/Dockerfile
+    ports:
+      - "1004:8080"
+    restart: unless-stopped
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.15
+  # MOVILIDAD
+  movilidad_si:
+    container_name: movilidad_si
+    build: 
+      context: .
+      dockerfile: movilidad_si/Dockerfile
+    ports:
+      - "1005:1005"
+    restart: unless-stopped
+    networks:
+      x-road-network:
+        ipv4_address: 172.25.0.16
+    
+networks:
+  x-road-network:
+    name: x-road-network
+    driver: bridge
+    internal: false
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.25.0.0/24
