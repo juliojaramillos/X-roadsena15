@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  nodejs:
+    container_name: nodejs
+    build: .
+    volumes: 
+      - "./src"
+    image: mintransporte
+    ports:
+      - "1001:1001"
+    restart: unless-stopped
