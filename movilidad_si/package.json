@@ -1,0 +1,28 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Movilidad API-REST",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "production": "nodemon src/index.js"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Movilidad",
+    "Javascript",
+    "ExpressJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  }
+}
